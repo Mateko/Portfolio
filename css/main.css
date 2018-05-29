@@ -1,0 +1,222 @@
+html
+{
+font-size: 62.5%;
+}
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+.menu
+{
+	display: none;
+}
+.welcome
+{
+	background-image: url("../jpg/headerimage.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100vh;
+	min-width: 100%;
+	text-align: center;
+	background-position: 50%;
+}
+.pageHeader
+{
+	position: absolute;
+	min-width: 100%;
+}
+.pageHeader .myName
+{
+		
+	font-family: 'Alegreya Sans SC', sans-serif;
+	margin-top:  15px;
+	margin-left: 10px;
+	font-size: 32px;
+}
+.pageHeader .lastName
+{
+	font-weight: bold;
+}
+.menuButton
+{
+	position: absolute;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	top: 32%;
+	right: 5%;
+}
+.menuButton div
+{
+	width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
+.welcome .welcomeText
+{
+	margin: 0;
+	padding-top: 30vh;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+.welcome p
+{
+	font-size: 24 px;
+	font-weight: bold;
+}
+
+.welcome .scroolDown
+{
+	padding-top: 30vh;
+	color: #fff;
+	font-size: 12px;
+}
+.twoOffers
+{
+	width: 100%;
+	padding: 0;
+}
+
+.twoOffers .bestDesign
+{
+	float: left;
+	width: 50%;
+	background-image: url("../jpg/bestdesign.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 10%;
+	background-size: cover;
+	color: #ffffff;
+}
+.twoOffers .bestDesign
+{
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	word-spacing: normal;
+}
+.twoOffers .bestDesign .bigger, .bestCode .bigger
+{
+	font-weight: bold;
+}
+.twoOffers .bestCode
+{
+	float: right;
+	width: 50%;
+	background-image: url("../jpg/bestcode.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 10%;
+	background-size: cover;
+	color: #ffffff;
+}
+
+.twoOffers .bestCode
+{
+	font-size: 12px;
+    padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	word-spacing: normal;
+}
+.whatImDoin h3
+{
+	padding-bottom: 30px;
+	
+}
+.whatImDoin
+{
+	text-align: left;
+	width: 100%;
+	padding: 0;
+}
+.whatImDoin .responsibilitiesProject
+{
+	float: left;
+	width: 50%;
+}
+
+.whatImDoin .responsibilitiesApplication
+{
+	float: right;
+	width: 50%;
+}
+.whatImDoin .responsibilitiesNiceChoosing
+{
+	float: right;
+	width: 50%;
+}
+.whatImDoin .responsibilitiesDesktopApp
+{
+	float: left;
+	width: 50%;
+}
+.whatImDoin .responsibilitiesProject h4 
+{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.whatImDoin .responsibilitiesNiceChoosing h4
+{
+	font-weight: bold;
+}
+.whatImDoin .responsibilitiesApplication h4
+{
+    font-weight: bold;
+	padding-top: 16px;
+	padding-bottom: 4px;
+}
+.whatImDoin .responsibilitiesDesktopApp h4
+{
+	font-weight: bold;
+}
+.aboutMe
+{
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	background-image: url("../jpg/aboutus.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 20%;
+	color: #fff;
+}
+.aboutMe .photoOfMe
+{
+	width: 200px;
+	height: 250px;
+}
+.aboutMe p
+{
+	font-size: 13px;
+}
+.aboutMe .btnCV
+{
+  margin-bottom: 20px;
+}
+
+.btnCV
+{
+  background-image: -moz-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+  background-image: -webkit-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+  background-image: -ms-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+  color: #fff;
+  border: 0px;
+}
+footer
+{
+	text-align: center;
+	font-weight: bold;
+	color: #b2b6c4;
+	font-size: 16px;
+}
