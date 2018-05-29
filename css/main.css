@@ -1,7 +1,9 @@
+
 html
 {
 font-size: 62.5%;
 }
+
 body
 {
 	padding: 0;
@@ -9,6 +11,7 @@ body
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 }
+
 .welcome
 {
 	background-image: url("../jpg/headerimage.png");
@@ -20,11 +23,13 @@ body
 	text-align: center;
 	background-position: 50%;
 }
+
 .pageHeader
 {
 	position: absolute;
 	min-width: 100%;
 }
+
 .pageHeader .myName
 {
 		
@@ -33,10 +38,12 @@ body
 	margin-left: 10px;
 	font-size: 32px;
 }
+
 .pageHeader .lastName
 {
 	font-weight: bold;
 }
+
 .pageHeader .navigation #menuButton
 {
 
@@ -48,6 +55,7 @@ body
     outline:none;
 
 }
+
 .pageHeader .navigation .navigationDiv
 {
 	position: absolute;
@@ -62,6 +70,7 @@ body
     background-color: black;
     margin: 6px 0;
 }
+
 .welcome .welcomeText
 {
 	margin: 0;
@@ -69,18 +78,24 @@ body
 	padding-bottom: 30px;
 	font-weight: bold;
 }
-.welcome p
+
+.welcome .welcomeTextMore
 {
-	font-size: 24 px;
-	font-weight: bold;
+	font-size: 14px;
 }
 
 .welcome .scroolDown
 {
 	padding-top: 22vh;
 	color: #fff;
+	font-size: 18px;
+}
+
+.welcome .scrollParagraph
+{
 	font-size: 12px;
 }
+
 .twoOffers
 {
 	width: 100%;
@@ -98,6 +113,7 @@ body
 	background-size: cover;
 	color: #ffffff;
 }
+
 .twoOffers .bestDesign
 {
 	font-size: 12px;
@@ -106,10 +122,12 @@ body
 	text-align: justify;
 	word-spacing: normal;
 }
+
 .twoOffers .bestDesign .bigger, .bestCode .bigger
 {
 	font-weight: bold;
 }
+
 .twoOffers .bestCode
 {
 	float: right;
@@ -130,17 +148,20 @@ body
 	text-align: justify;
 	word-spacing: normal;
 }
+
 .whatImDoin h3
 {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
 .whatImDoin
 {
 	text-align: left;
 	width: 100%;
 	padding: 0;
 }
+
 .whatImDoin .responsibilitiesProject
 {
 	float: left;
@@ -152,35 +173,42 @@ body
 	float: right;
 	width: 50%;
 }
+
 .whatImDoin .responsibilitiesNiceChoosing
 {
 	float: right;
 	width: 50%;
 }
+
 .whatImDoin .responsibilitiesDesktopApp
 {
 	float: left;
 	width: 50%;
 }
+
 .whatImDoin .responsibilitiesProject h4 
 {
 	font-weight: bold;
 	padding-bottom: 20px;
 }
+
 .whatImDoin .responsibilitiesNiceChoosing h4
 {
 	font-weight: bold;
 }
+
 .whatImDoin .responsibilitiesApplication h4
 {
     font-weight: bold;
 	padding-top: 16px;
 	padding-bottom: 4px;
 }
+
 .whatImDoin .responsibilitiesDesktopApp h4
 {
 	font-weight: bold;
 }
+
 .aboutMe
 {
 	text-align: center;
@@ -193,23 +221,32 @@ body
 	background-position: 20%;
 	color: #fff;
 }
+
 .aboutMe .photoOfMe
 {
 	width: 200px;
 	height: 250px;
 }
+
 .aboutMe p
 {
 	font-size: 13px;
 }
+
 .aboutMe h3
 {
 	padding-bottom: 15px;
 }
+
 .aboutMe .btnCV
 {
  margin-top: 15px;
-  margin-bottom: 25px;
+ margin-bottom: 25px;
+}
+
+.welcome .btnCV
+{
+	margin-top: 34px;
 }
 
 .btnCV
@@ -220,6 +257,7 @@ body
   color: #fff;
   border: 0px;
 }
+
 footer
 {
 	text-align: center;
@@ -237,12 +275,14 @@ footer
 	 font-size: 18px;
 	 margin-top: 15px;
 }
+
 .pageHeader .navigation .listElements
 {
 	padding-right: 33px;
 	color: #000000;
 	 text-decoration: none;
 }
+
 .pageHeader .navigation .listElements:hover
 {
 	border: 1px solid;
@@ -250,16 +290,96 @@ footer
 	padding: 15px 20px;
 	color: #fff;
 }
+
 .welcome .welcomeText
 {
 	font-size: 48px;
 }
+
 .pageHeader .myName
 {
 	margin-top:  30px;
 	margin-left: 150px;
 }
+
+.welcome p
+{
+	font-size: 18px;
+	font-weight: bold;
 }
+
+.welcome .btnCV
+{
+	margin-top: 68px;
+}
+
+.welcome .scrollParagraph
+{
+	font-size: 12px;
+}
+
+.welcome .scroolDown
+{
+	padding-top: 26vh;
+	color: #fff;
+	font-size: 24px;
+}
+
+.twoOffers
+{
+	height: 53.5vh;
+}
+
+.twoOffers .bestDesign
+{
+	padding-top: 12vh;
+	min-height: 100%;
+	display: inline-block
+}
+
+.twoOffers .bestDesign h3
+{
+	text-align: center;
+    font-size: 34px;
+}
+
+.twoOffers .bestDesign .bestText
+{
+	width: 50%;
+}
+
+.twoOffers .bestDesign .bestText p
+{
+	float: left;
+	font-size: 12px;
+}
+
+.twoOffers .bestCode
+{
+	padding-top: 12vh;
+	min-height: 100%;
+	display: inline-block
+}
+
+.twoOffers .bestCode h3
+{
+	text-align: center;
+	font-size: 34px;
+}
+
+.twoOffers .bestCode .bestText
+{
+	width: 50%;
+}
+
+.twoOffers .bestCode .bestText p
+{
+	float: left;
+	font-size: 12px;
+}
+
+}
+
 
 
 
