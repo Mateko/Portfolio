@@ -1,9 +1,12 @@
 
 
-
+/* NAVBAR */
 var x = window.matchMedia("(min-width: 1200px)");
 var y = document.getElementById("menu");
 var z = document.getElementById("menuButton");
+var k = document.getElementsByClassName("intrestedThings");
+var d = document.getElementsByClassName("intrestedThingsText");
+
 function myFunction(x) {
     if (x.matches) 
 	{ 

@@ -12,6 +12,30 @@ body
 	font-size: 20px;
 }
 
+/* MATERIAL ICONS */
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;  /* Preferred icon size */
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
 .welcome
 {
 	background-image: url("../jpg/headerimage.png");
@@ -149,66 +173,50 @@ body
 	word-spacing: normal;
 }
 
-.whatImDoin h3
-{
-	text-align: center;
-	padding-bottom: 20px;
-}
-
 .whatImDoin
 {
-	text-align: left;
 	width: 100%;
 	padding: 0;
+	text-align: center;
 }
 
-.whatImDoin .responsibilitiesProject
+.whatImDoin h3
 {
-	float: left;
-	width: 50%;
-}
-
-.whatImDoin .responsibilitiesApplication
-{
-	float: right;
-	width: 50%;
-}
-
-.whatImDoin .responsibilitiesNiceChoosing
-{
-	float: right;
-	width: 50%;
-}
-
-.whatImDoin .responsibilitiesDesktopApp
-{
-	float: left;
-	width: 50%;
-}
-
-.whatImDoin .responsibilitiesProject h4 
-{
-	font-weight: bold;
 	padding-bottom: 20px;
 }
 
-.whatImDoin .responsibilitiesNiceChoosing h4
+.whatImDoin .intrestedThings
 {
+	border: 1px solid;
+	width: 30vh;
+	display: inline-block;
+	margin-bottom: 8vh;
+}
+.whatImDoin .intrestedThings .intrestedThingsText
+{
+	text-align: center;
+}
+.whatImDoin .intrestedThings .intrestedThingsText p
+{
+	font-size: 10px;
 	font-weight: bold;
+	margin-top: 1vh;
 }
-
-.whatImDoin .responsibilitiesApplication h4
+.whatImDoin :nth-child(3)
 {
-    font-weight: bold;
-	padding-top: 16px;
-	padding-bottom: 4px;
+	background: #2a2a2a;
+	color: #fff;
+}
+ .whatImDoin :nth-child(5)
+ {
+ 	background: #121212;
+	color: #fff;
 }
 
-.whatImDoin .responsibilitiesDesktopApp h4
+.whatImDoin .intrestedThings  .intrestedThingsText .material-icons
 {
-	font-weight: bold;
+	display: none;
 }
-
 .aboutMe
 {
 	text-align: center;
@@ -267,7 +275,6 @@ footer
 }
 
 /* MEDIA QUERY DESKTOP */
-
 @media (min-width: 1200px) { 
 .pageHeader .navigation .desktopMenu
 {
@@ -377,9 +384,34 @@ footer
 	float: left;
 	font-size: 12px;
 }
-
+.whatImDoin
+{
+	height: 80vh;
+}
+.whatImDoin h3
+{
+	margin-top: 20px;
 }
 
+}
+/* MEDIA MONITOR */
+@media (min-width: 1600px){ 
+	.whatImDoin .responsibilitiesProject
+{
+	padding-top: 16vh;
+}
+
+.whatImDoin .responsibilitiesApplication
+{
+	padding-top: 16vh;
+}
+
+.whatImDoin  img
+{
+	width: 140px;
+	height: 90px;
+}
+}
 
 
 
