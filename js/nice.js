@@ -4,9 +4,11 @@
 var x = window.matchMedia("(min-width: 1200px)");
 var y = document.getElementById("menu");
 var z = document.getElementById("menuButton");
+/*Blocx*/
 var k = document.getElementsByClassName("intrestedThings");
-var d = document.getElementsByClassName("intrestedThingsText");
-
+var a = document.getElementsByClassName("intrestedThingsParagraph");
+var d = document.getElementsByClassName("material-icons");
+/* NAVBAR */
 function myFunction(x) {
     if (x.matches) 
 	{ 
@@ -25,3 +27,37 @@ function myFunction(x) {
 
 myFunction(x) 
 x.addListener(myFunction) 
+
+/*Blocx*/
+
+/*
+$(k).mouseover(function(){
+    $(a).children().hide();
+	$(d).show();
+});
+$(k).mouseout(function(){
+    $(a).children().show();
+	$(d).hide();
+});
+*/
+$(k).mouseover(function(){
+  $(this).find(a).hide();
+	$(this).find(d).show();
+});
+$(k).mouseout(function(){
+	$(this).find(d).hide();
+	$(this).find(a).show();
+});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	

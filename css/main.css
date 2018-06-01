@@ -188,26 +188,26 @@ body
 .whatImDoin .intrestedThings
 {
 	border: 1px solid;
-	width: 30vh;
+	min-width: 26vh;
+	min-height: 22vh;
 	display: inline-block;
 	margin-bottom: 8vh;
+	padding-top: 9vh;
 }
 .whatImDoin .intrestedThings .intrestedThingsText
 {
 	text-align: center;
 }
-.whatImDoin .intrestedThings .intrestedThingsText p
+.whatImDoin .intrestedThings .intrestedThingsText .intrestedThingsParagraph
 {
-	font-size: 10px;
-	font-weight: bold;
-	margin-top: 1vh;
+	font-size: 16px;	
 }
-.whatImDoin :nth-child(3)
+.whatImDoin :nth-child(5)
 {
 	background: #2a2a2a;
 	color: #fff;
 }
- .whatImDoin :nth-child(5)
+ .whatImDoin :nth-child(3)
  {
  	background: #121212;
 	color: #fff;
@@ -216,6 +216,7 @@ body
 .whatImDoin .intrestedThings  .intrestedThingsText .material-icons
 {
 	display: none;
+	font-size: 36px;
 }
 .aboutMe
 {
@@ -232,8 +233,9 @@ body
 
 .aboutMe .photoOfMe
 {
-	width: 200px;
-	height: 250px;
+	width: 180px;
+	height: 230px;
+	margin-bottom: 15px;
 }
 
 .aboutMe p
@@ -292,9 +294,7 @@ footer
 
 .pageHeader .navigation .listElements:hover
 {
-	border: 1px solid;
-	border-radius: 50px;
-	padding: 15px 20px;
+	border-bottom: 1px solid;
 	color: #fff;
 }
 
@@ -384,15 +384,35 @@ footer
 	float: left;
 	font-size: 12px;
 }
+
 .whatImDoin
 {
 	height: 80vh;
 }
+
 .whatImDoin h3
 {
 	margin-top: 20px;
 }
 
+.whatImDoin .intrestedThings
+{
+	margin-top: 18vh;
+	display: inline-block;
+	width: 10vh;
+	height: 4vh;
+}
+
+.aboutMe .photoOfMe
+{
+	width: 270px;
+	height: 350px;
+}
+
+.aboutMe h4
+{
+	font-size: 26px;
+}
 }
 /* MEDIA MONITOR */
 @media (min-width: 1600px){ 
