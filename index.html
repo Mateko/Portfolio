@@ -19,8 +19,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<!-- maps -->
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsxMCdJBZDA99MQXfuaDed-Tobfhm2OGI&callback=initMap" type="text/javascript"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsxMCdJBZDA99MQXfuaDed-Tobfhm2OGI" type="text/javascript"></script>
 	<title>Mateusz Pierzchała - portfolio</title>
 </head>
 <body>
@@ -36,9 +38,9 @@
 				</button>
 				<ul class="dropdown-menu dropdown-menu-right" id="menu">
 					<li>
-						<a class="listElements" href="#">Start</a>
-						<a class="listElements" href="#">O mnie</a>
-						<a class="listElements" href="#">Zainteresowania</a>
+						<a class="listElements" href="#start">Start</a>
+						<a class="listElements" href="#aboutMe">O mnie</a>
+						<a class="listElements" href="#whatILike">Zainteresowania</a>
 						<a class="listElements" href="#">Kontakt</a>
 					</li>
 				</ul>
@@ -46,7 +48,7 @@
 		</nav>
 	</header>
 	<main>
-			<header class="welcome">
+			<header class="welcome" id="start">
 				<h2 class="welcomeText">Witam!</h2>
 				<p class="welcomeTextMore">Zapraszam do dalszej części strony, lub kliknij niżej po cv!</p>
 				<button type="button" title="Pobierz CV" class="btn btnCV">Pobierz CV</button>
@@ -54,8 +56,9 @@
 				<img src="jpg/mouse.png" alt="mouse">
 				<p class="scrollParagraph">scrool down</p>
 				</div>
+				<a  href="#start"><i class="fa fa-arrow-circle-up arrowUp"></i></a>
 			</header>
-			<div class="container twoOffers">
+			<div class="container twoOffers" id="bestdesigns">
 				<div class="bestDesign">
 					<div class="container bestText">
 						<h3>Best<span class="bigger">Design</span></h3>
@@ -75,7 +78,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container whatImDoin">
+			<div class="container whatImDoin" id="whatILike">
 				<h3>Czym się zajmuję?</h3>
 				<div class="container intrestedThings">
 					<div class="intrestedThingsText">
@@ -100,11 +103,9 @@
 						<i class="material-icons">trending_up</i>
 						<p class="intrestedThingsParagraph">BLOCKCHAIN</p>
 				</div>
-			</div>
-		</div>
 	</div>
 		</div>
-			<div class="container aboutMe">
+			<div class="container aboutMe" id="aboutMe">
 				<h3>Coś o mnie!</h3>
 				<img src="jpg/mateuszp.jpg" class="img-rounded photoOfMe" alt="Mateusz Pierzchała - zapraszam do kontaktu">
 				<h4>Mateusz Pierzchała</h4>
@@ -114,7 +115,7 @@
 				<p>Zapraszam do sciągniecia CV!</p>
 				<button type="button" title="Pobierz CV" class="btn btnCV">Pobierz CV</button>
 			</div>
-			<div id="map" style="width:100%;height:400px;"/>
+			<div id="map" style="width:100%;height:400px;"></div>
 	</main>
 	<footer>
 			&copy; 2018, Mateusz Pierzchała.

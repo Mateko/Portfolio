@@ -38,7 +38,7 @@ body
 }
 .welcome
 {
-	background-image: url("../jpg/headerimage.png");
+	background-image: url("../jpg/headerimage.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -118,6 +118,14 @@ body
 .welcome .scrollParagraph
 {
 	font-size: 12px;
+}
+
+.welcome .arrowUp
+{
+	position: fixed;
+	color: #fff;
+	font-size: 48px;
+	right: 10%;
 }
 
 .twoOffers
@@ -223,7 +231,7 @@ body
 	text-align: center;
 	width: 100%;
 	padding: 0;
-	background-image: url("../jpg/aboutus.png");
+	background-image: url("../jpg/aboutus.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -331,7 +339,14 @@ footer
 	color: #fff;
 	font-size: 24px;
 }
-
+.welcome .arrowUp
+{
+	
+	font-size: 56px;
+	top: 88%;
+	right: 3%;
+	color: rgb(208, 208, 225);
+}
 .twoOffers
 {
 	height: 53.5vh;
@@ -392,7 +407,7 @@ footer
 
 .whatImDoin h3
 {
-	margin-top: 20px;
+	margin-top: 4vh;
 }
 
 .whatImDoin .intrestedThings
@@ -401,6 +416,7 @@ footer
 	display: inline-block;
 	width: 10vh;
 	height: 4vh;
+	margin-right: 6vh;
 }
 
 .aboutMe .photoOfMe
