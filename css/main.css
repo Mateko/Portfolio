@@ -69,31 +69,12 @@ body
 	display: none;
 }
 
-.pageHeader .navigation #menuButton
-{
-
-	background-color: Transparent;
-	background-repeat:no-repeat;
-    border: none;
-	cursor:pointer;
-    overflow: hidden;
-    outline:none;
-
-}
 
 .pageHeader .navigation .navigationDiv
 {
 	position: absolute;
 	top: 2vh;
 	right: 2vh;
-}
-
-#menuButton div
-{
-	width: 35px;
-    height: 3px;
-    background-color: black;
-    margin: 6px 0;
 }
 
 .welcome .welcomeText
@@ -300,8 +281,12 @@ footer
 	padding-right: 33px;
 	color: #000000;
 	 text-decoration: none;
+	 cursor: pointer;
 }
-
+.pageHeader .navigation .linkCV:hover
+{
+	 cursor: pointer;
+}
 .pageHeader .navigation .listElements:hover
 {
 	border-bottom: 1px solid;
