@@ -66,6 +66,7 @@ body
 .pageHeader .lastName
 {
 	font-weight: bold;
+	display: none;
 }
 
 .pageHeader .navigation #menuButton
@@ -83,8 +84,8 @@ body
 .pageHeader .navigation .navigationDiv
 {
 	position: absolute;
-	top: 33%;
-	right: 5%;
+	top: 2vh;
+	right: 2vh;
 }
 
 #menuButton div
@@ -101,11 +102,12 @@ body
 	padding-top: 30vh;
 	padding-bottom: 30px;
 	font-weight: bold;
+	display: none;
 }
-
 .welcome .welcomeTextMore
 {
 	font-size: 14px;
+	display: none;
 }
 
 .welcome .scroolDown
@@ -417,6 +419,7 @@ footer
 	width: 10vh;
 	height: 4vh;
 	margin-right: 6vh;
+	margin-left: 6vh;
 }
 
 .aboutMe .photoOfMe

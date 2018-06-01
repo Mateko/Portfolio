@@ -30,16 +30,6 @@ x.addListener(myFunction)
 
 /*Blocx*/
 
-/*
-$(k).mouseover(function(){
-    $(a).children().hide();
-	$(d).show();
-});
-$(k).mouseout(function(){
-    $(a).children().show();
-	$(d).hide();
-});
-*/
 $(k).mouseover(function(){
   $(this).find(a).hide();
 	$(this).find(d).show();
@@ -49,20 +39,24 @@ $(k).mouseout(function(){
 	$(this).find(a).show();
 });
 	
-$(".btnCV").click(function() {
+$(".btnCV, .linkCV").click(function() {
 	if (confirm("Czy chcesz przejsc do pliku cv?")) {
     	window.location = "cv.pdf";
 	} else {
 	}    
 });
 	
-	
-	
-	
-	
-	
-	
-	
+$(document).ready(function () {
+$(".welcomeText").fadeIn(3000);
+$(".welcomeTextMore").fadeIn(4000);
+$(".lastName").fadeIn(4000);
+});
+
+$(".hamburger").click(function(){
+	$(this).toggleClass("is-active");
+});
 	
 
-	
+$(".listElements, main").click(function(){
+	$(".hamburger").removeClass("is-active");
+});

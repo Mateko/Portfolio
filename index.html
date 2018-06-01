@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="pl-PL">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="css/hamburgers.css" rel="stylesheet">
 	<!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- pooper js -->
@@ -15,33 +16,30 @@
 	<!-- Including css source -->
 	<link rel="stylesheet" media="screen" href="css/main.css" />
 	<!-- fonts -->
-	<link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Indie+Flower" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 	<!-- maps -->
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsxMCdJBZDA99MQXfuaDed-Tobfhm2OGI&callback=initMap" type="text/javascript" async defer></script>
-	<title>Mateusz Pierzchała - portfolio</title>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsxMCdJBZDA99MQXfuaDed-Tobfhm2OGI&callback=initMap" async defer></script>
+	<title>Mateusz Pierzchała - portfolio, html, css, javascript, jquery</title>
 </head>
 <body>
 	<header class="pageHeader">
 		<p class="myName">Mateusz <span class="lastName">Pierzchała</span></p>
 		<nav class="navigation">
 			<div class="dropdown navigationDiv">
-				<button type="button" title="Otwórz menu" class="dropdown-toggle" data-toggle="dropdown" id="menuButton">
-					<!-- Hamburger -->
-						<div></div>
-						<div></div>
-						<div></div>
+				<button type="button" title="Otwórz menu" class="dropdown-toggle hamburger hamburger--emphatic" data-toggle="dropdown" id="menuButton">
+					<span class="hamburger-box">
+   					<span class="hamburger-inner"></span>
+ 					</span>
 				</button>
 				<ul class="dropdown-menu dropdown-menu-right" id="menu">
 					<li>
 						<a class="listElements" href="#start">Start</a>
 						<a class="listElements" href="#aboutMe">O mnie</a>
 						<a class="listElements" href="#whatILike">Zainteresowania</a>
-						<a class="listElements" href="#">Kontakt</a>
+						<a class="listElements linkCV" >Pobranie CV</a>
 					</li>
 				</ul>
 			</div>
