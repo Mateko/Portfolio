@@ -49,7 +49,12 @@ $(k).mouseout(function(){
 	$(this).find(a).show();
 });
 	
-	
+$(".btnCV").click(function() {
+	if (confirm("Czy chcesz przejsc do pliku cv?")) {
+    	window.location = "cv.pdf";
+	} else {
+	}    
+});
 	
 	
 	
