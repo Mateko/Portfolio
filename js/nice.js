@@ -9,7 +9,7 @@ var k = document.getElementsByClassName("intrestedThings");
 var a = document.getElementsByClassName("intrestedThingsParagraph");
 var d = document.getElementsByClassName("material-icons");
 /* NAVBAR */
-function myFunction(x) {
+function navbarFitToWidth(x) {
     if (x.matches) 
 	{ 
         y.classList.remove('dropdown-menu');
